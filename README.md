@@ -18,52 +18,7 @@ The files that will be synced are:
 
 ## Test Results
 
-```
-$ python3 -m pytest tests/ -v
-...
-tests/test_autodiff.py::test_chain_rule1 PASSED
-tests/test_autodiff.py::test_chain_rule2 PASSED
-tests/test_autodiff.py::test_chain_rule3 PASSED
-tests/test_autodiff.py::test_chain_rule4 PASSED
-tests/test_autodiff.py::test_backprop1 PASSED
-tests/test_autodiff.py::test_backprop2 PASSED
-tests/test_autodiff.py::test_backprop3 PASSED
-tests/test_autodiff.py::test_backprop4 PASSED
-tests/test_module.py::test_stacked_demo PASSED
-tests/test_module.py::test_module PASSED
-tests/test_module.py::test_stacked_module PASSED
-tests/test_module.py::test_module_fail_forward XFAIL
-tests/test_module.py::test_module_forward PASSED
-tests/test_module.py::test_parameter PASSED
-tests/test_operators.py::test_same_as_python PASSED
-tests/test_operators.py::test_relu PASSED
-tests/test_operators.py::test_relu_back PASSED
-tests/test_operators.py::test_id PASSED
-tests/test_operators.py::test_lt PASSED
-tests/test_operators.py::test_max PASSED
-tests/test_operators.py::test_eq PASSED
-tests/test_operators.py::test_sigmoid PASSED
-tests/test_operators.py::test_transitive PASSED
-tests/test_operators.py::test_symmetric PASSED
-tests/test_operators.py::test_distribute PASSED
-tests/test_operators.py::test_other PASSED
-tests/test_operators.py::test_zip_with PASSED
-tests/test_operators.py::test_sum_distribute PASSED
-tests/test_operators.py::test_sum PASSED
-tests/test_operators.py::test_prod PASSED
-tests/test_operators.py::test_negList PASSED
-tests/test_operators.py::test_one_args[fn0..fn13] PASSED
-tests/test_operators.py::test_two_args[fn0..fn5] PASSED
-tests/test_operators.py::test_backs PASSED
-tests/test_scalar.py::test_central_diff PASSED
-tests/test_scalar.py::test_simple PASSED
-tests/test_scalar.py::test_one_args[fn0..fn13] PASSED
-tests/test_scalar.py::test_two_args[fn0..fn5] PASSED
-tests/test_scalar.py::test_one_derivative[fn0..fn13] PASSED
-tests/test_scalar.py::test_two_derivative[fn0..fn5] PASSED
-
-======================== 93 passed, 1 xfailed in 3.53s ========================
-```
+![Test results](screenshots/tests.png)
 
 ## Task 1.5 Training Log
 
